@@ -10,3 +10,4 @@
 7. [Force](./7-force/README.md)
 8. [Vault](./8-vault/README.md)
 9. [King](./9-king/README.md)
+10. [Re-entrancy](./10-re-entrancy/README.md)
