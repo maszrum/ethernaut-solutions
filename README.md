@@ -5,3 +5,4 @@
 2. [Fallout](./2-fallout/README.md)
 3. [Coin flip](./3-coin-flip/README.md)
 4. [Telephone](./4-telephone/README.md)
+5. [Token](./5-token/README.md)
