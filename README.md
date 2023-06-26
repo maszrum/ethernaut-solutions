@@ -7,3 +7,4 @@
 4. [Telephone](./4-telephone/README.md)
 5. [Token](./5-token/README.md)
 6. [Delegation](./6-delegation/README.md)
+7. [Force](./7-force/README.md)
