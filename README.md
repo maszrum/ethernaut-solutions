@@ -6,3 +6,4 @@
 3. [Coin flip](./3-coin-flip/README.md)
 4. [Telephone](./4-telephone/README.md)
 5. [Token](./5-token/README.md)
+6. [Delegation](./6-delegation/README.md)
