@@ -12,3 +12,4 @@
 9. [King](./09-king/README.md)
 10. [Re-entrancy](./10-re-entrancy/README.md)
 11. [Elevator](./11-elevator/README.md)
+12. [Privacy](./12-privacy/README.md)
